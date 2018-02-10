@@ -21,7 +21,7 @@ const request = require('request');
 const logger = require('winston');
 const authController = require('./controllers/authcontroller');
 const autoTranslateController = require('./controllers/autotranslatecontroller');
-const translateController = require('./controllers/translateController');
+// const translateController = require('./controllers/translateController');
 const User = require('./model/usermodel');
 const config = require('config');
 
